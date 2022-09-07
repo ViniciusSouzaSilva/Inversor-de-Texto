@@ -7,8 +7,6 @@ function inverterCompleto()
     str = str.split('')
     str.reverse()
     str = str.join('')
-    str = str.split(' ')
-    str = str.join(' ')
 
     txt2.value = str
 }
@@ -39,4 +37,5 @@ function copiar()
     var txt2 = document.getElementById('inv')
     txt2.select()
     document.execCommand('copy')
+    alert('Copiado!')
 }
