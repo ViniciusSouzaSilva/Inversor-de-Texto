@@ -10,21 +10,21 @@
 </head>
 <body>
     <header>
-        <div><h1>Inversor de Texto</h1></div>
+        <div ><h1>Inversor de Texto</h1></div>
     </header>
 
     <section class="main">
         <div>
             <div>
-                <h3>Inverter</h3>
-                <textarea class="txt norm" id="norm" spellcheck="false"></textarea>
+
+                <textarea class="txt norm" id="norm" spellcheck="false" placeholder="Digite aqui"></textarea>
             </div>
             <div>
                 <input type="button" value="Completo" class="btn l1" onclick="inverterCompleto()">
                 <input type="button" value="Palavra por palavra" class="btn l1" onclick="inverterPalavras()">
             </div>
             <div>
-                <textarea class="txt inv" id="inv" spellcheck="false"></textarea>
+                <textarea class="txt inv" id="inv" spellcheck="false" placeholder="Texto invertido" readonly></textarea>
             </div>
             <div>
                 <input type="button" value="Copiar" class="btn l2" onclick="copiar()">

@@ -3,7 +3,6 @@ function inverterCompleto()
     var txt1 = document.getElementById('norm')
     var txt2 = document.getElementById('inv')
     var str = txt1.value
-    var nstr = []
     str = str.split('')
     str.reverse()
     str = str.join('')
